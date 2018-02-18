@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="https://www.lovinator.space/"><img src="https://i.imgur.com/7kM81YD.png" alt="Leaf " width="200" height="200"></a>
+  <a href="https://blog.lovinator.space/"><img src="https://i.imgur.com/7kM81YD.png" alt="Leaf " width="200" height="200"></a>
   <br>
-  lovinator.space
+  blog.lovinator.space
   <br>
 </h1>
 
-<h4 align="center">Source code for <a href="https://www.lovinator.space/" target="_blank">lovinator.space</a>.</h4>
+<h4 align="center">Source code for <a href="https://blog.lovinator.space/" target="_blank">blog.lovinator.space</a>.</h4>
 
 <p align="center">
   <a href="#license">License</a> •

@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://blog.lovinator.space/"><img src="https://i.imgur.com/7kM81YD.png" alt="Leaf " width="200" height="200"></a>
+  <a href="https://blog.lovinator.space/"><img src="https://i.imgur.com/OX2qIxv.png" alt="Leaf " width="200" height="200"></a>
   <br>
   blog.lovinator.space
   <br>

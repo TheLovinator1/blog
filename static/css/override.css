@@ -1,0 +1,24 @@
+body {
+    background-color: #161616;
+}
+section.header .name, section.main .content .page-heading, section.main .content .markdown h1, section.main .content .markdown h2, section.main .content .markdown h3, section.main .content .markdown li  {
+    color: #FFFFFF;
+}
+section.icons .content a {
+    filter: invert(1);
+}
+section.main .content .markdown p {
+    color: #8C8C8C;
+}
+section.main .content .markdown code, section.main .content .markdown pre, section.main .content .markdown pre {
+    background-color: #212121;
+    color: #8C8C8C;
+}
+tr, section.main .content .markdown td, section.main .content .markdown th {
+    background-color: #1C1C1C;
+    border-color: #4C4C4C;
+    color: #999999;
+}
+section.main .content .markdown tbody tr:nth-child(2n+1) td {
+    background-color: #212121;
+}

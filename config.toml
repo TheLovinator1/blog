@@ -1,4 +1,4 @@
-baseurl             = "https://blog.lovinator.space/"
+baseurl             = "https://blog.lovinator.xyz/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
@@ -7,7 +7,7 @@ layoutdir           = "layouts"
 publishdir          = "public"
 theme               = "cocoa"
 author              = "TheLovinator"
-title               = "lovinator.space"
+title               = "lovinator.xyz"
 pygmentsuseclasses  = false
 # disqusshortname     = "lovinator" # Comment out to disable Disqus.
 pluralizelisttitles = false
@@ -56,7 +56,7 @@ highlightjs            = false
 # highlightjsStyle     = "darcula"
 
 piwik                  = false                         # If true, Piwik integration is enabled
-piwik_url              = "//lovinator.space/piwik/"    # URL to your Piwik installation. Must End with a slash
+piwik_url              = "//lovinator.xyz/piwik/"    # URL to your Piwik installation. Must End with a slash
 piwik_id               = 1                             # Id of your site in Piwik
 
 gitalk                 = false

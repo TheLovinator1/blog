@@ -22,7 +22,16 @@
             <div class="markdown">
                 {{ .Content }}
                 <br>
-		<p class="back-to-posts"><a href="/blog/">{{ i18n "backToPosts" }}</a></p>
+                {{ if .Params.tags }}
+                  <div class="tags">
+                    <strong>Tags:</strong>
+                  {{range .Params.tags}}
+                    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                  {{end}}
+                  </div>
+                  <br />
+                {{end}}
+                <p class="back-to-posts"><a {{ printf "href=%q" ("/blog" | relLangURL) | safeHTMLAttr }}>{{ i18n "backToPosts" }}</a></p>
             </div>
             <br>
             <div class="disqus">
@@ -36,7 +45,7 @@
                   clientSecret: "{{ .Site.Params.gitalk_clientSecret }}",
                   repo: "{{ .Site.Params.gitalk_repo }}",
                   owner: "{{ .Site.Params.gitalk_owner }}",
-                  admin: {{ .Site.Params.gitalk_admin }},
+                  admin: "{{ .Site.Params.gitalk_admin }}",
                   // facebook-like distraction free mode
                   distractionFreeMode: true
                 })

@@ -37,9 +37,9 @@ url                    = "/about/"
 [params]
 include_rss            = true
 latestpostscount       = 15                             # how many posts to display on the home page
-i18n_flags             = false                         # whether to display small country flags for available translations
+i18n_flags             = false                          # whether to display small country flags for available translations
 author                 = "TheLovinator"
-cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+cachebuster            = true                           # add the current unix timestamp in query string for cache busting css assets
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Rocket ship builder, pizza expert, loves the Giants, parent."
@@ -56,7 +56,7 @@ highlightjs            = false
 # highlightjsStyle     = "darcula"
 
 piwik                  = false                         # If true, Piwik integration is enabled
-piwik_url              = "//lovinator.xyz/piwik/"    # URL to your Piwik installation. Must End with a slash
+piwik_url              = "//lovinator.xyz/piwik/"      # URL to your Piwik installation. Must End with a slash
 piwik_id               = 1                             # Id of your site in Piwik
 
 gitalk                 = false
@@ -67,7 +67,7 @@ gitalk_repo            = "your repo url"
 gitalk_owner           = "the owner of this repo"
 gitalk_admin           = ['a', 'list', 'of', 'administrator']
 
-avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
+avatar                 = "img/profile.png"             # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                            # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
 
 steam                  = "https://steamcommunity.com/profiles/76561198021760046"

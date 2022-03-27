@@ -1,4 +1,4 @@
-baseurl             = "https://blog.lovinator.xyz/"
+baseurl             = "https://blog.lovinator.space/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
@@ -7,7 +7,7 @@ layoutdir           = "layouts"
 publishdir          = "public"
 theme               = "cocoa"
 author              = "TheLovinator"
-title               = "lovinator.xyz"
+title               = "blog.lovinator.space"
 pygmentsuseclasses  = false
 # disqusshortname     = "lovinator" # Comment out to disable Disqus.
 pluralizelisttitles = false

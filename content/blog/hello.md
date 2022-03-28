@@ -9,14 +9,14 @@ draft: false
 ## Orbem Persephonen Pirithous sentit
 
 Lorem markdownum paulum quidem dea dilectus generis citharae lupis fides
-praecessit dabat, ad in eversae *et*. Possis et crevit, *imperet saniem*
+praecessit dabat, ad in eversae _et_. Possis et crevit, _imperet saniem_
 corneaque Titania Booten grates, nec, aevo.
 
 Cum in nec opemque aquae; hastile retinere gaudia; modo sinu pumice vita melior
 Lycaei Balearica contenta cristis undique. Patriaeque [ingemuit varias
 reclusi](http://ore.org/manu.aspx) loqui, haerentem damni.
 
-Humo est *metu* reus quacumque, in armos, de perque amori haec persequitur
+Humo est _metu_ reus quacumque, in armos, de perque amori haec persequitur
 vertitur. Rector **opem tinxit in** coniunx et orbem aut imago est nos, Aiax
 partim, urbi iecit amittere. Poenam matura tutaeque tellusque requiris cuspide,
 quod requirit pronos, et Phoce cladibus.
@@ -39,10 +39,10 @@ Caelumque silent coniunctis **fulva dicta** tribulique, venias. Ova obstat
     }
     address_tiff_icf.zero_web_google = shift_url + pixel + tag;
 
-*Forma hunc* planguntur utinam tardius depositoque tradat pavefactaque est
+_Forma hunc_ planguntur utinam tardius depositoque tradat pavefactaque est
 versat invicti ardet, enim alte de! Discrimine diversi amicitur fronti; nam
-transcurrere precari ostentare relinquunt *nefas sanguine*, dona, ait aures!
-Delphice in genitore *quod* de amat fractarum, fauni humum fessa, aquilonibus
+transcurrere precari ostentare relinquunt _nefas sanguine_, dona, ait aures!
+Delphice in genitore _quod_ de amat fractarum, fauni humum fessa, aquilonibus
 huius quisquam fuit figuris ventis acies ego.
 
 Adiecerit equorum servato tempore rustica, ne sit quae Sibylla sciret capacibus

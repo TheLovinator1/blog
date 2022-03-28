@@ -55,7 +55,7 @@ body {
   width: 100%;
   min-height: 100%;
   font-weight: 400;
-  font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   color: #111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
@@ -179,7 +179,7 @@ section.header .avatar {
 }
 section.header .name {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -188,7 +188,7 @@ section.header .name {
 }
 section.header h3.self-intro {
   font-size: 1em;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -200,7 +200,7 @@ section.header nav {
   font-size: 14px;
   margin-bottom: 16px;
   text-transform: uppercase;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
 }
 section.header nav ul {
   list-style: none;
@@ -351,7 +351,7 @@ section.main .content .title-container {
 section.main .content .title-container .initials {
   display: none;
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -371,7 +371,7 @@ section.main .content .title-container .initials a:hover {
 }
 section.main .content .page-heading {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -438,7 +438,7 @@ section.main .container.f04 .content {
 section.main .container.f04 .content .num {
   margin: 30px 0px 30px 0;
   font-weight: 200;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   font-size: 50px;
 }
 section.main .container.f04 .content .detail {
@@ -493,7 +493,7 @@ section.main .container .content .no-bullet {
 }
 section.main .container .content .no-bullet .date {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -576,7 +576,7 @@ section.main .content .markdown h4,
 section.main .content .markdown h5,
 section.main .content .markdown h6 {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   color: #333;
@@ -605,14 +605,14 @@ section.main .content .markdown h6 {
 section.main .content .markdown code,
 section.main .content .markdown pre,
 section.main .content p .literal {
-  font-family: 'Ubuntu Mono', 'Menlo', monospace;
+  font-family: "Ubuntu Mono", "Menlo", monospace;
   font-size: 1rem;
   background-color: #f7f7f7;
 }
 section.main .content .markdown code,
 section.main .content p .literal {
   /* enclosed by single backtick (`) */
-  padding: .15em .5em;
+  padding: 0.15em 0.5em;
   border-radius: 2px;
 }
 section.main .content .markdown pre {
@@ -654,7 +654,7 @@ section.main .content .markdown dt {
   font-weight: bold;
 }
 section.main .content .markdown dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 section.main .content .markdown ul {
   margin-bottom: 1.25rem;
@@ -693,10 +693,10 @@ section.main .content .markdown abbr[title] {
   border-bottom: 1px dotted #808080;
 }
 section.main .content .markdown blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: 0.25rem solid #e5e5e5;
 }
 section.main .content .markdown blockquote p:last-child {
   margin-bottom: 0;
@@ -719,7 +719,7 @@ section.main .content .markdown table {
 }
 section.main .content .markdown td,
 section.main .content .markdown th {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5;
 }
 section.main .content .markdown tbody tr:nth-child(odd) td,

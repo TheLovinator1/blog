@@ -13,45 +13,48 @@
 <!-- CSS -->
 
 {{ if .Site.Params.highlightjs }}
-  {{ if .Site.Params.highlightjs_css_url }}
-    <link rel="stylesheet" href="{{ .Site.Params.highlightjs_css_url }}">
-  {{ else }}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/{{ .Site.Params.highlightjsStyle | default "default" }}.min.css">
-  {{ end }}
+{{ if .Site.Params.highlightjs_css_url }}
+<link href="{{ .Site.Params.highlightjs_css_url }}" rel="stylesheet">
+{{ else }}
+<link default
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/{{ .Site.Params.highlightjsStyle | default "
+      rel="stylesheet"" }}.min.css">
+{{ end }}
 {{ end }}
 
 <!-- Fonts and icon CSS -->
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500"
+      rel="stylesheet">
 
 {{ if .Site.Params.cachebuster }}
 
-    {{ $t := now }}
-    <link rel="stylesheet" href="/css/reset.css?t={{$t}}">
-    <link rel="stylesheet" href="/css/pygments.css?t={{$t}}">
-    <link rel="stylesheet" href="/css/main.css?t={{$t}}">
-    {{range .Site.Params.extracssfiles}}
-        <link rel="stylesheet" href="{{.}}?t={{$t}}">
-    {{ end }}
+{{ $t := now }}
+<link href="/css/reset.css?t={{$t}}" rel="stylesheet">
+<link href="/css/pygments.css?t={{$t}}" rel="stylesheet">
+<link href="/css/main.css?t={{$t}}" rel="stylesheet">
+{{range .Site.Params.extracssfiles}}
+<link href="{{.}}?t={{$t}}" rel="stylesheet">
+{{ end }}
 
 {{ else }}
 
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/pygments.css">
-    <link rel="stylesheet" href="/css/main.css">
-    {{range .Site.Params.extracssfiles}}
-        <link rel="stylesheet" href="{{.}}">
-    {{end}}
+<link href="/css/reset.css" rel="stylesheet">
+<link href="/css/pygments.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
+{{range .Site.Params.extracssfiles}}
+<link href="{{.}}" rel="stylesheet">
+{{end}}
 
 {{ end }}
 
 <!-- Icon -->
-<link rel="shortcut icon"
-{{ if .Site.Params.faviconfile }}
-    href="/{{ .Site.Params.faviconfile }}"
-{{ else }}
-    href="/img/favicon.ico"
-{{ end }}
+<link .Site.Params.faviconfile
+      else end href="/{{ .Site.Params.faviconfile }}" href="/img/favicon.ico"
+      if
+      rel="shortcut icon" {{ {{
+      {{
+      }} }} }}
 >
 
 <!-- RSS -->
@@ -60,23 +63,23 @@
 {{ $RSSLink = .RelPermalink }}
 {{ end }}
 {{ if and .Site.Params.include_rss $RSSLink }}
-  <link href="{{ $RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{ $RSSLink }}" rel="alternate" title="{{ .Site.Title }}" type="application/rss+xml"/>
 {{ end }}
 
 <!-- gitalk -->
 {{ if .Site.Params.gitalk }}
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<link href="https://unpkg.com/gitalk/dist/gitalk.css" rel="stylesheet">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 {{ end }}
 <!-- End gitalk Code -->
 
 <!-- Favicon stuff -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jwLJdyWzO4">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=jwLJdyWzO4">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=jwLJdyWzO4">
-<link rel="manifest" href="/manifest.json?v=jwLJdyWzO4">
-<link rel="mask-icon" href="/safari-pinned-tab.svg?v=jwLJdyWzO4" color="#2d89ef">
-<link rel="shortcut icon" href="/favicon.ico?v=jwLJdyWzO4">
-<meta name="msapplication-TileColor" content="#2d89ef">
-<meta name="msapplication-TileImage" content="/mstile-144x144.png?v=jwLJdyWzO4">
-<meta name="theme-color" content="#375cd0">
+<link href="/apple-touch-icon.png?v=jwLJdyWzO4" rel="apple-touch-icon" sizes="180x180">
+<link href="/favicon-32x32.png?v=jwLJdyWzO4" rel="icon" sizes="32x32" type="image/png">
+<link href="/favicon-16x16.png?v=jwLJdyWzO4" rel="icon" sizes="16x16" type="image/png">
+<link href="/manifest.json?v=jwLJdyWzO4" rel="manifest">
+<link color="#2d89ef" href="/safari-pinned-tab.svg?v=jwLJdyWzO4" rel="mask-icon">
+<link href="/favicon.ico?v=jwLJdyWzO4" rel="shortcut icon">
+<meta content="#2d89ef" name="msapplication-TileColor">
+<meta content="/mstile-144x144.png?v=jwLJdyWzO4" name="msapplication-TileImage">
+<meta content="#375cd0" name="theme-color">

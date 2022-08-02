@@ -1,10 +1,12 @@
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer">
-{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<meta content="chrome=1" http-equiv="X-UA-Compatible">
+<meta content="True" name="HandheldFriendly">
+<meta content="320" name="MobileOptimized">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="no-referrer" name="referrer">
+{{ with .Site.Params.author }}
+<meta content="{{ . }}" name="author">{{ end }}
+<meta content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"
+      name="description">
 
 {{ template "_internal/opengraph.html" . }}

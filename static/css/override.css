@@ -1,33 +1,39 @@
 body {
-  background-color: #161616;
+    background-color: #161616;
 }
+
 section.header .name,
 section.main .content .page-heading,
 section.main .content .markdown h1,
 section.main .content .markdown h2,
 section.main .content .markdown h3,
 section.main .content .markdown li {
-  color: #ffffff;
+    color: #ffffff;
 }
+
 section.icons .content a {
-  filter: invert(1);
+    filter: invert(1);
 }
+
 section.main .content .markdown p {
-  color: #8c8c8c;
+    color: #8c8c8c;
 }
+
 section.main .content .markdown code,
 section.main .content .markdown pre,
 section.main .content .markdown pre {
-  background-color: #212121;
-  color: #8c8c8c;
+    background-color: #212121;
+    color: #8c8c8c;
 }
+
 tr,
 section.main .content .markdown td,
 section.main .content .markdown th {
-  background-color: #1c1c1c;
-  border-color: #4c4c4c;
-  color: #999999;
+    background-color: #1c1c1c;
+    border-color: #4c4c4c;
+    color: #999999;
 }
+
 section.main .content .markdown tbody tr:nth-child(2n + 1) td {
-  background-color: #212121;
+    background-color: #212121;
 }

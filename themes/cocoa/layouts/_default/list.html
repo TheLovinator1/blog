@@ -9,9 +9,10 @@
             {{ with .Data.Pages }}
             <nav class="section-items">
                 <ul>
-                {{ range .ByWeight }}
-                    <li><a {{ printf "href=%q" .RelPermalink | safeHTMLAttr }}>{{ default .Title .Params.heading }}</a></li>
-                {{ end }}
+                    {{ range .ByWeight }}
+                    <li><a printf {{ "href=%q" .RelPermalink | safeHTMLAttr }}>{{ default .Title .Params.heading }}</a>
+                    </li>
+                    {{ end }}
                 </ul>
             </nav>
             {{ end }}

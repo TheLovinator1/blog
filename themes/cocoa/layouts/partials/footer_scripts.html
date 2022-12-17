@@ -5,7 +5,7 @@
 {{ if .Site.Params.highlightjs_url }}
 <script src="{{ .Site.Params.highlightjs_url }}"></script>
 {{ else }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 {{ range .Site.Params.highlightjslanguages }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/{{.}}.min.js"></script>
 {{ end }}
